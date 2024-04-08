@@ -92,11 +92,11 @@ a {
   justify-content: space-between;
   width: inherit;
   margin-top: 20px;
+  margin-bottom: 50px;
 }
 
 .notice-container > * {
   width: 30%;
-  border: 1px solid red;
   border-radius: 20px;
   height: 346px;
 }
@@ -127,6 +127,7 @@ a {
 
 .notice-body {
   height: 266px;
+  border: 1px solid black;
 }
 
 .notice-footer {
@@ -151,8 +152,31 @@ a {
 }
 
 /* === notice end === */
-/* === header start === */
-/* === header start === */
+
+/* === office desk starts === */
+.office-desk {
+  background-color: #00000013;
+  padding: 50px 0 100px;
+}
+.office-container {
+  width: 85vw;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.office-container > * {
+  border: 1px solid red;
+}
+
+.principal,
+.superintendant {
+  width: 36%;
+  height: 440px;
+}
+.menu {
+  width: 25%;
+}
+/* === office desk ends === */
 /* === header start === */
 /* === header start === */
 /* === header start === */
