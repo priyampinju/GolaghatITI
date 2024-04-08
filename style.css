@@ -7,9 +7,7 @@ h2 {
   font-family: "Montserrat", sans-serif;
   font-size: 30px;
 }
-h4 {
-  bottom: 20px;
-}
+
 /* === header start === */
 .header {
   background-color: #f8f8f8;
@@ -111,6 +109,7 @@ a {
   font-size: 18px;
   font-family: montserrat;
   border-radius: 20px 20px 0 0;
+  color: white;
 }
 .notice-container-header > * {
   margin-right: 5px;
@@ -121,6 +120,34 @@ a {
 }
 .notices-header {
   background-image: linear-gradient(to right, rgb(0 161 75), rgb(230 230 230));
+}
+.ann-header {
+  background-image: linear-gradient(to right, rgb(10 31 85), rgb(230 230 230));
+}
+
+.notice-body {
+  height: 266px;
+}
+
+.notice-footer {
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0 0 20px 20px;
+  color: white;
+}
+
+.news-footer {
+  background-color: #f57f1c;
+}
+
+.notices-footer {
+  background-color: rgb(0 161 75);
+}
+
+.ann-footer {
+  background-color: rgb(10 31 85);
 }
 
 /* === notice end === */
