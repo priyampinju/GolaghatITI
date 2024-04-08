@@ -7,6 +7,9 @@ h2 {
   font-family: "Montserrat", sans-serif;
   font-size: 30px;
 }
+h4 {
+  bottom: 20px;
+}
 /* === header start === */
 .header {
   background-color: #f8f8f8;
@@ -117,7 +120,7 @@ a {
   background-image: linear-gradient(to right, #f57f1c, rgb(230 230 230));
 }
 .notices-header {
-  background-image: linear-gradient(to right, #f57f1c, rgb(230 230 230));
+  background-image: linear-gradient(to right, rgb(0 161 75), rgb(230 230 230));
 }
 
 /* === notice end === */
