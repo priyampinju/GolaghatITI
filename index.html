@@ -43,6 +43,7 @@
       }
       a {
         color: inherit;
+        text-decoration: none;
       }
       /* === header end === */
       /* === navbar start === */
@@ -55,17 +56,30 @@
       }
 
       /* === navbar end === */
-      /* === header start === */
-      /* === header start === */
-      /* === header start === */
-      /* === header start === */
-      /* === header start === */
-      /* === header start === */
-      /* === header start === */
-      /* === header start === */
-      .features {
-        height: 100vh;
+      /* === navbar-collapse start === */
+
+      .navbar-collapse {
+        background-color: #337AB7;
+        width: 88vw;
+        margin: auto;
+        height: 41px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        color: white;
+        border: 1px solid white;
       }
+      .navbar-collapse > * {
+        padding: 10px 15px;
+        border-left: 1px solid white;
+      }
+      /* === navbar-collapse end === */
+      /* === header start === */
+      /* === header start === */
+      /* === header start === */
+      /* === header start === */
+      /* === header start === */
+      /* === header start === */
       /* === header start === */
       /* === header start === */
       /* === header start === */
@@ -105,7 +119,15 @@
         <img src="/img/iti-logo.jpg" alt="iti logo">
         <img src="/img/nrl.jpg" alt="nrl">
     </div>
-    <div class="navbar-collapse">Navbar collapse</div>
+    <div class="navbar-collapse">
+        <a href="#">Home</a>
+        <a href="#">Course</a>
+        <a href="#">Gallery</a>
+        <a href="#">Faculties</a>
+        <a href="#">Placement</a>
+        <a href="#">Contact Us</a>
+        <a href="#">Login</a>
+    </div>
     <div class="slider">image slider</div>
     <section class="notice">Notice</section>
     <section class="office-desk">Office desk</section>
