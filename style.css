@@ -5,6 +5,7 @@
 }
 h2 {
   font-family: "Montserrat", sans-serif;
+  font-size: 30px;
 }
 /* === header start === */
 .header {
@@ -63,11 +64,18 @@ a {
 }
 /* === navbar-collapse end === */
 /* === notice start === */
+.notice {
+  width: 85vw;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
 
 .notice-header {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 10px;
 }
 
 .notice-header-line {
@@ -77,6 +85,35 @@ a {
   display: inline-block;
   background: #01bafd;
   margin: 10px 10px;
+}
+.notice-container {
+  display: flex;
+  justify-content: space-between;
+  width: inherit;
+  margin-top: 20px;
+}
+
+.notice-container > * {
+  width: 30%;
+  border: 1px solid red;
+  border-radius: 20px;
+  height: 346px;
+}
+
+.notice-container-header {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  font-size: 18px;
+  font-family: montserrat;
+}
+.notice-container-header > * {
+  margin-right: 5px;
+}
+
+.news-header {
+  background-image: linear-gradient(#f57f1c, rgb(230 230 230));
 }
 
 /* === notice end === */
