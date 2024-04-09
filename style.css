@@ -242,6 +242,18 @@ a {
   align-items: center;
   border-right: 2px solid #888;
   width: 256px;
+  font-size: 22px;
+}
+
+.feature-items > i {
+  font-size: 50px;
+}
+
+.num {
+  font-size: 35px;
+  font-family: Montserrat;
+  font-weight: 600;
+  margin: 10px 0 5px;
 }
 
 /* === feature ends === */
