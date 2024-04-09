@@ -454,5 +454,9 @@ a {
   width: 20%;
   padding: 0 15px;
 }
+.info-header {
+  font-size: 18px;
+  font-family: Montserrat;
+}
 
 /*  === Footer ends === */
