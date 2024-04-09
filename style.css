@@ -276,11 +276,11 @@ a {
 .about-video {
   height: 370px;
   width: 555px;
-  background-color: #01bafd;
 }
+
 .about-right {
   flex: 1;
-  padding: 10px;
+  padding: 10px 20px;
 }
 .about-header {
   display: flex;
@@ -291,6 +291,7 @@ a {
 .about-header-tag {
   font-size: 40px;
   font-family: Montserrat;
+  font-weight: 600;
 }
 
 .about-header-line {
@@ -301,6 +302,11 @@ a {
   background: #01bafd;
   margin: 10px 10px;
 }
+
+.about-right > p {
+  text-align: justify;
+}
+
 /* === about us ends === */
 /* === header start === */
 /* === header start === */
