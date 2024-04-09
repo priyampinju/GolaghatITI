@@ -177,7 +177,7 @@ a {
 .superintendant {
   width: 35.1%;
   height: 440px;
-  border: 0.1px solid grey;
+  border: 0.1px solid #888;
 }
 
 .card-header {
@@ -256,8 +256,51 @@ a {
   margin: 10px 0 5px;
 }
 
+.last-item {
+  border-right: none;
+}
+
 /* === feature ends === */
-/* === header start === */
-/* === header start === */
+/* === about us start === */
+.about-us {
+  display: flex;
+  justify-content: space-evenly;
+  width: 85%;
+  margin: auto;
+  padding: 100px 0;
+}
+.about-left {
+  flex: 1;
+  padding: 10px;
+}
+.about-video {
+  height: 370px;
+  width: 555px;
+  background-color: #01bafd;
+}
+.about-right {
+  flex: 1;
+  padding: 10px;
+}
+.about-header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.about-header-tag {
+  font-size: 40px;
+  font-family: Montserrat;
+}
+
+.about-header-line {
+  content: "";
+  width: 130px;
+  height: 3px;
+  display: inline-block;
+  background: #01bafd;
+  margin: 10px 10px;
+}
+/* === about us ends === */
 /* === header start === */
 /* === header start === */
