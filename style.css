@@ -308,5 +308,114 @@ a {
 }
 
 /* === about us ends === */
-/* === header start === */
-/* === header start === */
+/* === courses start === */
+
+.courses {
+  background-color: #333333;
+  height: 800px;
+}
+
+.course-header-tag {
+  color: white;
+  margin-top: 30px;
+}
+.about-header-line {
+  margin-top: 35px;
+}
+
+.course-container {
+  width: 85%;
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.course-card-body {
+  padding: 30px 15px 30px 15px;
+  height: 222px;
+  position: relative;
+}
+
+.course-card-body > p {
+  text-align: justify;
+  font-size: 14px;
+  font-family: Roboto;
+  line-height: 1.7;
+  letter-spacing: 0.3px;
+}
+
+.courses-cards {
+  width: 350px;
+  background-color: white;
+}
+.course-header {
+  height: 40px;
+  background-color: #f8f3d4;
+  display: flex;
+  justify-content: space-between;
+  padding: 6px 20px;
+  align-items: center;
+  margin-top: -4px;
+}
+
+.course-card-body-footer {
+  height: 30px;
+  border-top: 0.5px solid #888;
+  padding: 8px;
+  position: absolute;
+  bottom: 0;
+  width: 85%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* === courses ends === */
+
+/*  === Moments starts === */
+
+.moments {
+  padding: 100px 0;
+}
+
+.moments-header-tag {
+  font-size: 30px;
+  font-family: Montserrat;
+  font-weight: 700;
+}
+
+.moments-container {
+  width: 85%;
+  margin: auto;
+  margin-top: 38px;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+/*  === Moments ends === */
+/*  === Testimonial starts === */
+
+.testimonial {
+  background-image: url(../img/testimonial-bg.jpg);
+  background-attachment: fixed;
+  background-position: center center;
+  padding: 100px;
+  background-size: cover;
+  position: relative;
+}
+
+.testimonial-container {
+  width: 85%;
+  padding: 10%;
+}
+
+/*  === testimonial ends === */
+/*  === Moments starts === */
+/*  === Moments starts === */
+/*  === Moments starts === */
+/*  === Moments starts === */
+/*  === Moments starts === */
+/*  === Moments starts === */
+/*  === Moments starts === */
