@@ -64,6 +64,60 @@ a {
   border-left: 1px solid white;
 }
 /* === navbar-collapse end === */
+/* === Slider starts === */
+.slider {
+  position: relative;
+}
+
+.slider-layer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.slider-top-heading {
+  font-family: Montserrat;
+  font-size: 18px;
+  border-bottom: 1px solid #f57f1c;
+  margin: 15px;
+  padding: 10px 40px;
+  text-align: center;
+  color: white;
+  font-weight: 600;
+}
+
+.slider-main-heading {
+  font-size: 50px;
+  font-family: Montserrat;
+  font-weight: 600;
+  color: white;
+  padding: 10px;
+}
+
+.slider-sub-heading {
+  font-size: 18px;
+  font-family: roboto;
+  color: white;
+  font-weight: 600;
+  padding: 10px;
+}
+
+.read-more {
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 5px;
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+  font-size: 18px;
+}
+
 /* === notice start === */
 .notice {
   width: 85vw;
@@ -401,7 +455,7 @@ a {
   background-image: url(../img/testimonial-bg.jpg);
   background-attachment: fixed;
   background-position: center center;
-  padding: 100px 0;
+  padding: 100px 0 230px 0;
   background-size: cover;
   position: relative;
 }
@@ -426,14 +480,40 @@ a {
   background-color: #333333;
   margin: auto;
   padding: 60px 30px;
+  display: flex;
+  justify-content: center;
 }
 
 .testimonial-quote {
-  z-index: 100;
+  position: absolute;
 }
 .testimonial-quote > p {
   color: white;
   font-size: 16px;
+}
+.testimonial-student {
+  position: absolute;
+  left: 44.3%;
+  top: 42%;
+  text-align: center;
+}
+.student-avatar {
+  border-radius: 50%;
+  border: 0.5px solid #333333;
+  height: 130px;
+}
+.student-name {
+  padding: 10px 0;
+  font-weight: 600;
+  font-size: 20px;
+  color: white;
+  font-family: Montserrat;
+  letter-spacing: 0.7px;
+}
+.student-department {
+  font-size: 14px;
+  font-family: roboto;
+  color: #f57f1c;
 }
 
 /*  === testimonial ends === */
@@ -457,6 +537,40 @@ a {
 .info-header {
   font-size: 18px;
   font-family: Montserrat;
+  padding: 10px 0 15px 0;
+}
+.info-items {
+  padding: 5px 0;
+}
+
+.footer-news-detail {
+  padding: 5px 0;
+}
+
+.news-letter > input {
+  margin: 5px 0;
+  padding: 5px;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+}
+
+.subscribe {
+  margin: 5px 0;
+  padding: 5px;
+  background-color: #f57f1c;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+.footer-buttom {
+  background-color: black;
+  color: white;
+  padding: 20px 0;
+  width: auto;
+  text-align: center;
+  font-size: 18px;
 }
 
 /*  === Footer ends === */
