@@ -164,21 +164,87 @@ a {
   display: flex;
   justify-content: space-between;
 }
+
 .office-container > * {
-  border: 1px solid red;
+  background-color: white;
+}
+
+.office-header {
+  margin-bottom: 20px;
 }
 
 .principal,
 .superintendant {
-  width: 36%;
+  width: 35.1%;
   height: 440px;
+  border: 0.1px solid grey;
 }
+
+.card-header {
+  background-color: #337ab7;
+  height: 40px;
+  padding: 20px 0 0 10px;
+  color: white;
+  font-size: 18px;
+  margin-top: -5px;
+}
+.read-all {
+  color: orange;
+  cursor: pointer;
+}
+.card-body {
+  padding: 20px 10px 10px 10px;
+}
+
 .menu {
   width: 25%;
+  border: 0.5px solid #01bafd;
 }
+.menu-container {
+  background-color: white;
+  padding: 10px;
+}
+.items {
+  height: 44px;
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.item-contact {
+  border-bottom: none;
+}
+
 /* === office desk ends === */
-/* === header start === */
-/* === header start === */
+/* === features start === */
+
+.features {
+  height: 355px;
+  background-color: #333333;
+}
+
+.features-container {
+  height: 155px;
+  width: 85%;
+  margin: auto;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 100px 0;
+}
+
+.feature-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-right: 2px solid #888;
+  width: 256px;
+}
+
+/* === feature ends === */
 /* === header start === */
 /* === header start === */
 /* === header start === */
