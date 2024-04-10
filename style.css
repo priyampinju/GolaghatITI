@@ -124,6 +124,7 @@ a {
   margin: auto;
   margin-top: 30px;
   margin-bottom: 30px;
+  padding: 25px 0;
 }
 
 .notice-header {
@@ -244,15 +245,22 @@ a {
   padding: 10px;
   height: 100%;
 }
+/* 
 .ann-item {
-  height: 60px;
-  border-bottom: 1px solid #888;
+  height: 266px;
+  background-color: #01bafd;
+} */
+
+.ann-date {
+  color: #01bafd;
+  cursor: pointer;
 }
 
 .ann-download {
   height: 20px;
   position: absolute;
   right: 0;
+  cursor: pointer;
 }
 
 .ann-footer {
