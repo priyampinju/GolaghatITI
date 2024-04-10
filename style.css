@@ -245,11 +245,10 @@ a {
   padding: 10px;
   height: 100%;
 }
-/* 
+
 .ann-item {
-  height: 266px;
-  background-color: #01bafd;
-} */
+  height: 250px;
+}
 
 .ann-date {
   color: #01bafd;
@@ -286,7 +285,7 @@ a {
 }
 
 .office-header {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .principal,
@@ -525,6 +524,8 @@ a {
 .testimonial-container {
   padding: 0 10%;
   margin: auto;
+  display: flex;
+  justify-content: center;
 }
 
 .dark-layer {
@@ -548,10 +549,9 @@ a {
 
 .testimonial-quote {
   position: absolute;
-}
-.testimonial-quote > p {
   color: white;
-  font-size: 16px;
+  font-size: 18px;
+  margin-left: 30px;
 }
 .testimonial-student {
   position: absolute;
